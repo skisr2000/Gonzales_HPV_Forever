@@ -617,7 +617,7 @@
                 {% endif %} ;;
         link: {
           label: "Patient Details"
-          url: "/dashboards-next/6?Patient={{ derived_patient_data.patient_id._value}}"
+          url: "/dashboards-next/6?Patient={{ data.patient_id._value}}"
         }
       }
 
@@ -673,7 +673,7 @@
               {% endif %} ;;
         link: {
           label: "Patient Details"
-          url: "/dashboards-next/6?Patient={{ derived_patient_data.patient_id._value}}"
+          url: "/dashboards-next/6?Patient={{ data.patient_id._value}}"
         }
         # link: {
         #   label: "Patient MRN"
@@ -687,7 +687,7 @@
         # }
         link: {
           label: "View Childhood Immunizatons"
-          url: "/dashboards-next/188?Patient={{ derived_patient_data.patient_id._value}}"
+          url: "/dashboards-next/188?Patient={{ data.patient_id._value}}"
         }
       }
 

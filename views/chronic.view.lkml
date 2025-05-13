@@ -124,7 +124,7 @@ view: chronic {
     sql: ${TABLE}.oldid_ind ;;
   }
 
-  dimension: patient_id {
+  dimension: patientid {
     type: number
     sql: ${TABLE}.PatientID ;;
   }

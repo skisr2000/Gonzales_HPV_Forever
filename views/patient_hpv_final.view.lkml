@@ -1441,7 +1441,7 @@ view: patient_hpv_final {
   }
 
   set: hpvdetail {
-    fields: [data.patientid, data.patient_mrn,
+    fields: [data.patient_id, data.patient_mrn,
       data.patient_name,
       data.sex,
       data.age,
@@ -1462,7 +1462,7 @@ view: patient_hpv_final {
   }
 
   set: hpvdetail_no_shots {
-    fields: [data.patientid, data.patient_mrn,
+    fields: [data.patient_id, data.patient_mrn,
       data.patient_name,
       data.sex,
       data.age,
@@ -1477,7 +1477,7 @@ view: patient_hpv_final {
   }
 
   set: hpvdetail_distinct {
-    fields: [data.patientid, data.patient_mrn,
+    fields: [data.patient_id, data.patient_mrn,
       data.patient_name,
       data.sex,
       dos_detail.age_at_visit,
@@ -1499,7 +1499,7 @@ view: patient_hpv_final {
   }
 
   set: hvp_shot_age_distinct {
-    fields: [data.patientid, data.patient_mrn,
+    fields: [data.patient_id, data.patient_mrn,
       data.patient_name,
       data.sex,
       data.dob_date,
@@ -1518,7 +1518,7 @@ view: patient_hpv_final {
   }
 
   set: hpvdetail_distinct_age_shot_1 {
-    fields: [data.patientid, data.patient_mrn,
+    fields: [data.patient_id, data.patient_mrn,
       data.patient_name,
       data.sex,
       data.dob_date,
